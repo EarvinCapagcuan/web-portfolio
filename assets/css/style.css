@@ -1,0 +1,68 @@
+body{
+	background-image: url(../images/bg3.jpg);
+	background-color: #33d6ff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	/*font-family: 'Mukta', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Metamorphous', cursive;*/
+}
+
+p{
+	font-family: arial;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+}
+
+h1{
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: arial;
+	font-family: 'Mukta', sans-serif;
+}
+
+.desc{
+	font-size: 20px;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	line-height: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#pic{
+	border-radius: 50%; /* round picture */
+	border-style: solid;
+	border-width: 5px;
+	border-color: #1aa3ff;
+	width: 15%;
+	animation-name: opacity_change;
+	animation-duration: 2s;
+}
+
+.container{
+	background-color: #00bfff;
+	width: 70%;
+	margin: 0 auto;
+	border-radius: 10px;
+	animation-name: opacity_change;
+	opacityation-duration: 3s;
+}
+
+.footer{
+	color: black;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+/*animations*/
+@keyframes opacity_change{
+	0% {opacity: .4}
+	50% {opacity: .6}
+	80% {opacity: .8}
+	100% {opacity: 1;}
+}
